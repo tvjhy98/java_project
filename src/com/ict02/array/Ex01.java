@@ -43,6 +43,8 @@ public class Ex01 {
 		// i < 5 에서 5는 배열의 크기를 말한다 => su.length
 		for (int i = 0; i < su.length; i++) {
 			System.out.println(su[i]);
+			System.out.println(su[i]);
+			System.out.println(su[i]);
 		}
 		
 		
