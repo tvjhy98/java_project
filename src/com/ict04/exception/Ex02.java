@@ -3,7 +3,7 @@ package com.ict04.exception;
 public class Ex02 {
 	public static void main(String[] args) {
 		try {
-			String year = "2002년";  // 2002년 들어가면 오류 
+			String year = "2002년";  // 2년 들어가면 오류 
 			int age = 2012 -Integer.parseInt(year);
 			System.out.println("나이 : " +age);
 		} catch (Exception e) {
