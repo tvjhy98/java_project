@@ -16,14 +16,14 @@ public class Ex02 {
 		InputStreamReader isr = null;
 		BufferedReader br = null;
 		
-		String pathname = "c:"+ File.separator+"study"+ File.separator+"util"+File.separator+"네이버영화.txt";
+		String pathname = "c:"+ File.separator+"study"+ File.separator+"util"+File.separator+"기상청.txt";
 		File file = new File(pathname);
 		FileWriter fw = null;
 		BufferedWriter bw = null;
 		
 		try {
 			// 웹 페이지를 읽자
-			URL url = new URL("https://movie.naver.com/movie/bi/mi/basic.nhn?code=196051");
+			URL url = new URL("https://www.weather.go.kr/weather/forecast/timeseries.jsp");
 			is = url.openStream();
 			isr = new InputStreamReader(is,"utf-8"); 	// utf-8은 한글처리
 			br = new BufferedReader(isr);

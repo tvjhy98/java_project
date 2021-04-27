@@ -11,3 +11,4 @@ public class Ex16_main {
 		thread_2.start();
 	}
 }
+ 
